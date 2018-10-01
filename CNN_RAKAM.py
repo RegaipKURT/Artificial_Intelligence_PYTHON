@@ -1,6 +1,21 @@
 """
 Author: regkrt
 """
+"""
+Kodların hızlı çalışması için epoch değeri 10 olarak seçilmiştir.
+Epoch değerini artırmanız ve datagen = DataGenerator kısmındaki
+değerler ile oynamanız başarıyı büyük ölçüde artıracaktır. 
+"Droput" yani seyreltme kısmı ve değerleri ile de oynamanız ve 
+ne olduğunu bilmiyorsanız bu terimleri araştırmanızı tavsiye ederim. 
+"""
+"""
+Epoch value has choosen as 10 for boosting running time.
+You can change preset parameters for improve success rate.
+If you change preset parameters like in values ImageDataGenerator
+or epoch and dropout success change will  converge %100.
+If you don't have any information abaut datagen and dropout value,
+i am strongly recommending to you research this terms:)
+"""
 import warnings# import warnings
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
@@ -10,8 +25,11 @@ import matplotlib.pyplot as plt
 # filter warnings
 warnings.filterwarnings('ignore')
 
-train = pd.read_csv("veriler/El_Yazisi/train.csv")
-test= pd.read_csv("veriler/El_Yazisi/test.csv")
+#veri seti kaggle'dan digit_recognizer competition yarışmasından alınmıştır.
+#Lütfen veri setini kaggle'dan aratarak indiriniz.
+#please download the dataset from kaggle digit recognizer competition and change directory of data.
+train = pd.read_csv("veriler/train.csv")
+test= pd.read_csv("veriler/test.csv")
 # put labels into y_train variable
 Y_train = train["label"]
 # Drop 'label' column
