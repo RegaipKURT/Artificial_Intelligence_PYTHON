@@ -16,6 +16,8 @@ or epoch and dropout success change will  converge %100.
 If you don't have any information abaut datagen and dropout value,
 i am strongly recommending to you research this terms:)
 """
+#DATASET: https://www.kaggle.com/c/digit-recognizer/data
+#You must sign up kaggle and join competition for download dataset
 import warnings# import warnings
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
