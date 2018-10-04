@@ -1,7 +1,8 @@
 """
 Author: Kod: PARS
 """
-
+#DÜŞÜK BAŞARI ORANINDAN KAÇINMAK İÇİN LÜTFEN PARAMETRELERİ DEĞİŞTİRİN.
+#YOU CAN CHANGE PARAMETERS TO AVOİD LOW SUCCESS LEVEL.
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
