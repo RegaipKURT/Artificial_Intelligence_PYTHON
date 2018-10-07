@@ -11,13 +11,15 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Importing the training set
+#veri seti repository içinde mevcut, indirebilirsiniz.
+#dataset can be download from this repository.
 dataset_train = pd.read_csv('veriler/Stock_Price_Train.csv')
 train = dataset_train.loc[:, ["Open"]].values
 
 from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler(feature_range = (0, 1))
 train_scaled = scaler.fit_transform(train)
-train_scaled
+
 
 plt.plot(train_scaled)
 plt.show()
@@ -92,6 +94,7 @@ plt.show()
 # epoch = 250 daha güzel sonuç veriyor.
 
 # BURADAN SONRASI LSTM (LONG-SHORT TERM MEMORY)
+# after this we will code LSTM - if you wat to run it, you must disable quotes.
 """
 import numpy
 import pandas as pd 
