@@ -94,7 +94,7 @@ plt.show()
 # epoch = 250 daha güzel sonuç veriyor.
 
 # BURADAN SONRASI LSTM (LONG-SHORT TERM MEMORY)
-# after this we will code LSTM - if you wat to run it, you must disable quotes.
+# after this we will code LSTM - if you want to run it, you must disable quotes.
 """
 import numpy
 import pandas as pd 
