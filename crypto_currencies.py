@@ -1,3 +1,5 @@
+#Predicting cryptocurrency prices and deciding which one is has more advantage.
+
 import pandas as pd
 from sklearn import preprocessing
 from collections import deque
