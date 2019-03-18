@@ -1,4 +1,5 @@
 #%%
+#Deep Q Learning Algoritması ile gym kütüphanesinden caart pole oyunu.
 import gym
 import numpy as np
 from collections import deque
