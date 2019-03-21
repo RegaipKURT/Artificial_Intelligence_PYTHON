@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import time
 
 #Environments
-env = gym.make("Taxi-v2").env
+env = gym.make("Pendulum-v0").env
 
 states = env.observation_space.n
 actions = env.action_space.n
