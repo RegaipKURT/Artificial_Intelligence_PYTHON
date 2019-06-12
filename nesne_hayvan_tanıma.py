@@ -1,4 +1,4 @@
-#keras içerisindeki inception hazır modeliyle resimlerden nesne
+#keras içerisindeki inception hazır modeliyle resimlerden nesne tanıma
 from keras.applications.inception_v3 import InceptionV3
 from keras.applications.inception_v3 import preprocess_input
 from keras.applications.inception_v3 import decode_predictions
