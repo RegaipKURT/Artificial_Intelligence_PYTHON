@@ -2,4 +2,4 @@
 Advanced Level Artificial İntelligence Python Codes
 (İleri Seviye Python Yapay Zeka Çalışmaları)
 
-Kullanılan verisetleri datasets klasörü içinde bulunabilir.
+Kullanılan verisetleri ve grafikler graphs_and_datasets klasörü içinde bulunabilir.
